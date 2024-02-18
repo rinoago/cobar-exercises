@@ -14,11 +14,47 @@ Link to graphical installers:
 
 For Linux, refer to the Linux section of https://docs.anaconda.com/free/miniconda/#quick-command-line-install
 ### Installing FlyGym
-Visit the [FlyGym installation page](https://neuromechfly.org/installation.html).
+Create a Python virtual environment with conda:
+```sh
+conda create -n flygym python=3.11
+```
+Activate the environment (run this every time before you use the environment):
+```sh
+conda activate flygym
+```
+Clone the flygym repository
+```sh
+git clone git@github.com:NeLy-EPFL/flygym.git
+```
+Next, change directory to the cloned repository and install the flygym package in editable mode:
+```sh
+cd flygym
+pip install -e ."[mujoco]"
+```
 ### Installing Visual Studio Code
 - Download and install [Visual Studio Code](https://code.visualstudio.com)
-- Open Visual Studio Code and navigate to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window (or by pressing `Ctrl+Shift+X` on Windows/Linux and `Cmd+Shift+X` on Mac).
+- Open Visual Studio Code and navigate to the Extensions view by clicking on the Extensions icon in the Activity Bar on the left side of the window (or by pressing `Ctrl+Shift+X` on Windows/Linux and `Cmd+Shift+X` on Mac).
 - Search for "Python" and install the Python extension provided by Microsoft.
 - Search for "Jupyter" and install the Jupyter extension provided by Microsoft.
 
 If you encounter any issues during the installation, feel free to reach out to the TAs.
+# Running the notebooks
+Clone this repository:
+```sh
+git clone git@github.com:NeLy-EPFL/cobar-exercises.git
+```
+Open the `cobar-exercises` folder with Visual Studio Code: **File > Open...**
+
+Open the Explorer view in Visual Studio Code by clicking on the Extensions icon in the Activity Bar on the left side of the window (or by pressing `Ctrl+Shift+E` on Windows/Linux and `Cmd+Shift+E` on Mac).
+
+Open one of the .ipynb file within the Explorer view (e.g., `week1/gym_basics_and_kinematic_replay.ipynb`)
+
+Change the kernel to `flygym` (for how to change kernel, refer to https://code.visualstudio.com/docs/datascience/jupyter-kernel-management)
+
+For more instructions on how to work with Jupyter Notebooks in Visual Studio Code, refer to https://code.visualstudio.com/docs/datascience/jupyter-notebooks.
+# Updating the exercises
+New exercises will be released every week. Update the repository by:
+```sh
+cd cobar-exercises
+git pull
+```
