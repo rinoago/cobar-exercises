@@ -48,7 +48,7 @@ If you encounter any issues during the installation, feel free to reach out to t
 # Running the notebooks
 Clone this repository:
 ```sh
-git clone git@github.com:NeLy-EPFL/cobar-exercises.git
+git clone https://github.com/NeLy-EPFL/cobar-exercises
 ```
 Open the `cobar-exercises` folder with Visual Studio Code: **File > Open...**
 
