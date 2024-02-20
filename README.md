@@ -26,7 +26,13 @@ Clone the flygym repository
 ```sh
 git clone https://github.com/NeLy-EPFL/flygym
 ```
-Next, change directory to the cloned repository and install the flygym package in editable mode:
+Next, change directory to the cloned repository and install the flygym package in editable mode.
+For Windows and Linux:
+```sh
+cd flygym
+pip install -e .[mujoco]
+```
+For macOS:
 ```sh
 cd flygym
 pip install -e ."[mujoco]"
