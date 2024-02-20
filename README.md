@@ -24,7 +24,7 @@ conda activate flygym
 ```
 Clone the flygym repository
 ```sh
-git clone git@github.com:NeLy-EPFL/flygym.git
+git clone https://github.com/NeLy-EPFL/flygym
 ```
 Next, change directory to the cloned repository and install the flygym package in editable mode:
 ```sh
