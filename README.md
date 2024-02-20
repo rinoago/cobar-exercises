@@ -27,6 +27,7 @@ Clone the flygym repository
 git clone https://github.com/NeLy-EPFL/flygym
 ```
 Next, change directory to the cloned repository and install the flygym package in editable mode.
+
 For Windows and Linux:
 ```sh
 cd flygym
