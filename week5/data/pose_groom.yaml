@@ -1,0 +1,68 @@
+joints:
+  joint_Head_roll: 0
+  joint_Head_yaw: 0
+  joint_Head: 0
+
+  joint_LFCoxa: 15
+  joint_LFCoxa_yaw: -5
+  joint_LFCoxa_roll: 45
+  joint_LFFemur: -135
+  joint_LFFemur_roll: 50
+  joint_LFTibia: 95
+  joint_LFTarsus1: -50
+
+  joint_LMCoxa: 0
+  joint_LMCoxa_yaw: 0
+  joint_LMCoxa_roll: 90
+  joint_LMFemur: -110
+  joint_LMTibia: 80
+  joint_LMTarsus1: -40
+
+  joint_LHCoxa: 0
+  joint_LHCoxa_yaw: 0
+  joint_LHCoxa_roll: 150
+  joint_LHFemur: -110
+  joint_LHTibia: 80
+  joint_LHTarsus1: -40
+
+  joint_RFCoxa: 15
+  joint_RFCoxa_yaw: 5
+  joint_RFCoxa_roll: -45
+  joint_RFFemur: -135
+  joint_RFFemur_roll: -50
+  joint_RFTibia: 95
+  joint_RFTarsus1: -50
+
+  joint_RMCoxa: 0
+  joint_RMCoxa_yaw: 0
+  joint_RMCoxa_roll: -90
+  joint_RMFemur: -110
+  joint_RMTibia: 80
+  joint_RMTarsus1: -40
+
+  joint_RHCoxa: 0
+  joint_RHCoxa_yaw: 0
+  joint_RHCoxa_roll: -150
+  joint_RHFemur: -110
+  joint_RHTibia: 80
+  joint_RHTarsus1: -40
+
+  joint_LPedicel_yaw: 0.7853981633974483
+  joint_LPedicel: -0.5585053606381855
+  joint_LPedicel_roll: 0
+  joint_LFuniculus: 0
+  joint_LFuniculus_roll: 0
+  joint_LFuniculus_yaw: 0
+  joint_LArista: 0
+  joint_LArista_roll: 0
+  joint_LArista_yaw: -0.5585053606381855
+
+  joint_RPedicel_yaw: -0.7853981633974483
+  joint_RPedicel: -0.5585053606381855
+  joint_RPedicel_roll: 0
+  joint_RFuniculus: 0
+  joint_RFuniculus_roll: 0
+  joint_RFuniculus_yaw: 0
+  joint_RArista: 0
+  joint_RArista_roll: 0
+  joint_RArista_yaw: 0.5585053606381855
